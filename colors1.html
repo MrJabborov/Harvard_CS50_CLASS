@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Color Change1</title>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+
+            // change the color to red
+            document.querySelector('#red').onclick = function(){
+                document.querySelector('#title').style.color = 'red';
+            };
+
+            // change the color to blue
+            document.querySelector('#blue').onclick = function(){
+                document.querySelector('#title').style.color = 'blue';
+            };
+
+            // change the color to green
+            document.querySelector('#green').onclick = function(){
+                document.querySelector('#title').style.color = 'green';
+            };
+            
+        });
+
+
+        
+    </script>
+
+</head>
+
+<body>
+    <h1 id="title">Hello Students!</h1>
+    <button id="red">Red</button>
+    <button id="blue">Blue</button>
+    <button id="green">Green</button>
+    
+</body>
+</html>
